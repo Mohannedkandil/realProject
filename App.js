@@ -7,7 +7,8 @@ export default function App() {
   console.log('Hello Mohanad');
   return (
     <View style={styles.container}>
-      <Text>Mohanad Kandil.</Text>
+      <Text>Mohanad Kandil</Text>
+      <Button title='My fist BUTTON' icon={{ name:'code'}} />
       <StatusBar style="auto" />
     </View>
   );
